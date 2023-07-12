@@ -1,0 +1,132 @@
+.formacao {
+  background-color: #000000;
+}
+
+.formacao .subtitulo {
+  color: #000000;
+  max-width: 5ch;
+}
+
+.formacao-container {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  color: #ffffff;
+}
+
+.texto {
+  color: #a3a3a3;
+  font-size: 24px;
+  line-height: 32px;
+  max-width: 40ch;
+  margin-bottom: 60px;
+}
+
+.texto strong {
+  color: #ffffff;
+}
+
+.faculdade {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.faculdade-list {
+  flex: 1;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tipo {
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #a3a3a3;
+}
+
+.tipo-curso {
+  flex: 1;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.local {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #a3a3a3;
+}
+
+.cursos {
+  margin-bottom: 60px;
+  color: #ffffff;
+}
+
+.cursos > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cursos li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.cursos li > span {
+  font-size: 18px;
+  color: #8f8e8e;
+}
+
+.cursos h3 {
+  margin-bottom: 30px;
+  color: #8f8e8e;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.idiomas li > span {
+  font-size: 18px;
+  color: #8f8e8e;
+}
+
+.idiomas h3 {
+  margin-bottom: 30px;
+  color: #8f8e8e;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.idiomas li {
+  font-size: 18px;
+}
+
+.idiomas ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 800px) {
+  .formacao-container {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+    gap: 40px;
+  }
+  .formacao .subtitulo {
+    color: #ffffff;
+  }
+  .texto {
+    font-size: 1.25rem;
+  }
+}
